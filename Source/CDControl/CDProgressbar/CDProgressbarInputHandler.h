@@ -24,3 +24,4 @@
 -(BOOL) parseString:(NSString*)str intoProgress:(double*)value;
 -(void) setDelegate:(id)newDelegate;
 @end
+
