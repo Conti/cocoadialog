@@ -68,9 +68,9 @@
         NSString *pid = [NSString stringWithFormat:@"%d", [[NSProcessInfo processInfo] processIdentifier]];
         [arguments insertObject:pid atIndex:1];
         [arguments insertObject:launcherTarget atIndex:0];
-#if defined __ppc__ || defined __i368__
+#if defined __i368__
         [arguments insertObject:@"-32" atIndex:0];
-#elif defined __ppc64__ || defined __x86_64__
+#elif defined __x86_64__
         [arguments insertObject:@"-64" atIndex:0];
 #endif
         [[NSFileManager defaultManager] removeItemAtPath:launcherTarget error:NULL];

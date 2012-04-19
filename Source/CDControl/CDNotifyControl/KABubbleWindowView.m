@@ -98,7 +98,7 @@ void KABubbleShadeInterpolate( void *info, CGFloat const *inData, CGFloat *outDa
 	[_text drawInRect:NSMakeRect( 55., 10., 200., 30. )];
 
 	if( [_icon size].width > 32. || [_icon size].height > 32. ) { // Assume a square image.
-		NSImageRep *sourceImageRep = [_icon bestRepresentationForDevice:nil];
+        NSBitmapImageRep* sourceImageRep = [NSBitmapImageRep imageRepWithData:[_icon TIFFRepresentation]];
 		[_icon autorelease];
 		_icon = [[NSImage alloc] initWithSize:NSMakeSize( 32., 32. )];
 		[_icon lockFocus];
