@@ -66,7 +66,6 @@
 							</set>
 							<string key="NSFrame">{{17, 158}, {48, 48}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="196127081"/>
 							<string key="NSReuseIdentifierKey">_NS:2141</string>
 							<bool key="NSEnabled">YES</bool>
@@ -86,7 +85,6 @@
 							<int key="NSvFlags">266</int>
 							<string key="NSFrame">{{70, 192}, {341, 14}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="316184613"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -125,7 +123,6 @@
 							<int key="NSvFlags">292</int>
 							<string key="NSFrame">{{73, 70}, {335, 114}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="509591823"/>
 							<string key="NSReuseIdentifierKey">_NS:1192</string>
 							<string key="NSClassName">NSMatrix</string>
@@ -135,7 +132,6 @@
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{336, 12}, {78, 32}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="704062656">
@@ -162,7 +158,6 @@
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{258, 12}, {78, 32}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="840052715"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -188,7 +183,6 @@
 							<int key="NSvFlags">292</int>
 							<string key="NSFrame">{{14, 12}, {76, 32}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="297909641"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -214,7 +208,6 @@
 							<int key="NSvFlags">290</int>
 							<string key="NSFrame">{{70, 48}, {341, 14}}</string>
 							<reference key="NSSuperview" ref="651731071"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="547107954"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<bool key="NSEnabled">YES</bool>
@@ -231,7 +224,6 @@
 					</array>
 					<string key="NSFrameSize">{428, 226}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="751930790"/>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 					<string key="NSReuseIdentifierKey">_NS:207</string>
@@ -513,111 +505,20 @@
 			<nil key="sourceID"/>
 			<int key="maxID">74</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">CDCommon</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/CDCommon.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">CDControl</string>
-					<string key="superclassName">CDCommon</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="controlIcon">NSImageView</string>
-						<string key="controlPanel">NSPanel</string>
-						<string key="timeoutLabel">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="controlIcon">
-							<string key="name">controlIcon</string>
-							<string key="candidateClassName">NSImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="controlPanel">
-							<string key="name">controlPanel</string>
-							<string key="candidateClassName">NSPanel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timeoutLabel">
-							<string key="name">timeoutLabel</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/CDControl.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">CDThreeButtonControl</string>
-					<string key="superclassName">CDControl</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="button1Pressed:">id</string>
-						<string key="button2Pressed:">id</string>
-						<string key="button3Pressed:">id</string>
-						<string key="setControl:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="button1Pressed:">
-							<string key="name">button1Pressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="button2Pressed:">
-							<string key="name">button2Pressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="button3Pressed:">
-							<string key="name">button3Pressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="setControl:">
-							<string key="name">setControl:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="button1">NSButton</string>
-						<string key="button2">NSButton</string>
-						<string key="button3">NSButton</string>
-						<string key="controlMatrix">NSMatrix</string>
-						<string key="expandingLabel">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="button1">
-							<string key="name">button1</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="button2">
-							<string key="name">button2</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="button3">
-							<string key="name">button3</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="controlMatrix">
-							<string key="name">controlMatrix</string>
-							<string key="candidateClassName">NSMatrix</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="expandingLabel">
-							<string key="name">expandingLabel</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/CDThreeButtonControl.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<real value="1060" key="NS.object.0"/>
+		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<real value="1060" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<real value="4300" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
