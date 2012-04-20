@@ -119,12 +119,12 @@
         }
         // Center
         else {
-            leftPoint = (NSWidth(screen)-NSWidth([panel frame]))/2 - padding;
+            leftPoint = (NSWidth(screen)-NSWidth([panel frame]))/2;
 		}
 	}
     // Center
     else {
-        leftPoint = (NSWidth(screen)-NSWidth([panel frame]))/2 - padding;
+        leftPoint = (NSWidth(screen)-NSWidth([panel frame]))/2;
 	}
     // Has posY option
 	if ([options hasOpt:@"posY"]) {
@@ -143,12 +143,12 @@
         }
         // Center
         else {
-            topPoint = NSMaxY(screen)/1.8 + NSHeight([panel frame]);
+            topPoint = NSMaxY(screen)/2 + NSHeight([panel frame]);
 		}
 	}
     // Center
     else {
-		topPoint = NSMaxY(screen)/1.8 + NSHeight([panel frame]);
+		topPoint = NSMaxY(screen)/2 + NSHeight([panel frame]);
 	}
 	[panel setFrameTopLeftPoint:NSMakePoint(leftPoint, topPoint)];
 }
